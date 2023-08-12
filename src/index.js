@@ -15,6 +15,7 @@ window.Echo = new Echo({
   disableStats: true,
   encrypted: true,
   wssHost: 'staging.tasteeapp.com',
+  cluster: '',
   forceTLS: false,
   authEndpoint: "http://staging.tasteeapp.com/broadcasting/auth",
   enabledTransports: ['ws', 'wss'], 
