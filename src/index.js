@@ -12,13 +12,12 @@ window.Echo = new Echo({
   key: 'pusherkey',
   wsPort: 80,
   wssPort: 443,
-// disableStats: true,
+  disableStats: true,
   encrypted: true,
   wssHost: 'staging.tasteeapp.com',
-  cluster: 'mt1',
   forceTLS: false,
   authEndpoint: "http://staging.tasteeapp.com/broadcasting/auth",
-  // enabledTransports: ['ws', 'wss'], 
+  enabledTransports: ['ws', 'wss'], 
   auth:
     {
         headers:
