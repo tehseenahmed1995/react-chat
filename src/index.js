@@ -12,7 +12,7 @@ window.Echo = new Echo({
   key: 'pusherkey',
   wsPort: 6001,
   wssPort: 6001,
-  wssHost: 'staging.tasteeapp.com12',
+  wssHost: 'staging.tasteeapp.com',
   cluster: 'mt1',
   forceTLS: false,
   authEndpoint: "http://staging.tasteeapp.com/broadcasting/auth",
