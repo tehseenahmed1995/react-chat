@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "laravel-echo": "^1.15.0",
+    "pusher-js": "^8.0.1"
   }
 }
