@@ -10,14 +10,14 @@ window.Pusher = Pusher;
 window.Echo = new Echo({
   broadcaster: 'pusher',
   key: 'pusherkey',
+  wsHost: 'staging.tasteeapp.com',
   wsPort: 80,
   wssPort: 443,
   disableStats: true,
   encrypted: true,
-  wssHost: 'staging.tasteeapp.com',
-  cluster: '',
-  forceTLS: false,
-  authEndpoint: "http://staging.tasteeapp.com/broadcasting/auth",
+  cluster: 'tls',
+  forceTLS: true,
+  authEndpoint: "https://staging.tasteeapp.com/broadcasting/auth",
   enabledTransports: ['ws', 'wss'], 
   auth:
     {
